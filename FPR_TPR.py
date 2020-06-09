@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import copy
 def rand_sample(m, n):
-    # 生成score，label
     label = np.ones(100)
     label[-40:] = -1
 
